@@ -507,7 +507,7 @@ class Service extends AdapterService {
       }
 
       if (count) {
-        const countColumns = groupByColumns || (Array.isArray(this.id) ? this.id.map(idKey => `${this.Model.tableName}.${idKey}`) : [`${this.Model.tableName}.${this.id}`]);
+        const countColumns = groupByColumns || (Array.isArray(this.id) ? this.id.map(idKey => `${this.Model.tableName}.${idKey}`) : ['*']);
         const countQuery = this._createQuery(params);
 
         if (query.$joinRelation) {
