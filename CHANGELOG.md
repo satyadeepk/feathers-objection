@@ -1,16 +1,51 @@
 # Changelog
 
-## [Unreleased](https://github.com/feathersjs-ecosystem/feathers-objection/tree/HEAD)
+## [v6.0.0](https://github.com/feathersjs-ecosystem/feathers-objection/tree/v6.0.0) (2020-09-20)
 
-[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-objection/compare/v5.6.0...HEAD)
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-objection/compare/v5.8.1...v6.0.0)
 
-**Implemented enhancements:**
+**Closed issues:**
 
-- Set Postgres schema [\#104](https://github.com/feathersjs-ecosystem/feathers-objection/issues/104)
+- How can I override the default model? [\#116](https://github.com/feathersjs-ecosystem/feathers-objection/issues/116)
+- Getting 500 status codes for anything that isn't 2xx status code [\#112](https://github.com/feathersjs-ecosystem/feathers-objection/issues/112)
+- query params ignored for calls to patch for a service with allowUpsert  [\#97](https://github.com/feathersjs-ecosystem/feathers-objection/issues/97)
+
+**Merged pull requests:**
+
+- joinEager Fixes + $not Operator all with tests [\#114](https://github.com/feathersjs-ecosystem/feathers-objection/pull/114) ([Thomas-git](https://github.com/Thomas-git))
+
+## [v5.8.1](https://github.com/feathersjs-ecosystem/feathers-objection/tree/v5.8.1) (2020-09-18)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-objection/compare/v5.8.0...v5.8.1)
+
+**Merged pull requests:**
+
+- Fixed issue where query data would not properly copy if variable equates to false [\#115](https://github.com/feathersjs-ecosystem/feathers-objection/pull/115) ([weswinder](https://github.com/weswinder))
+
+## [v5.8.0](https://github.com/feathersjs-ecosystem/feathers-objection/tree/v5.8.0) (2020-08-26)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-objection/compare/v5.7.0...v5.8.0)
 
 **Fixed bugs:**
 
 - $modify queries broken in v5.5.1 [\#102](https://github.com/feathersjs-ecosystem/feathers-objection/issues/102)
+
+**Closed issues:**
+
+- \[Q\] query service with property in array of objects jsonb [\#111](https://github.com/feathersjs-ecosystem/feathers-objection/issues/111)
+- Relate [\#110](https://github.com/feathersjs-ecosystem/feathers-objection/issues/110)
+
+**Merged pull requests:**
+
+- Fix for default operators getting overwritten by options.whitelist instead of concat [\#108](https://github.com/feathersjs-ecosystem/feathers-objection/pull/108) ([satyadeepk](https://github.com/satyadeepk))
+
+## [v5.7.0](https://github.com/feathersjs-ecosystem/feathers-objection/tree/v5.7.0) (2020-07-25)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-objection/compare/v5.6.0...v5.7.0)
+
+**Implemented enhancements:**
+
+- Set Postgres schema [\#104](https://github.com/feathersjs-ecosystem/feathers-objection/issues/104)
 
 **Closed issues:**
 
@@ -551,7 +586,6 @@
 
 - Transaction support \(fix\) [\#22](https://github.com/feathersjs-ecosystem/feathers-objection/pull/22) ([vonagam](https://github.com/vonagam))
 - Added prepare script [\#15](https://github.com/feathersjs-ecosystem/feathers-objection/pull/15) ([NotAmaan](https://github.com/NotAmaan))
-- Fixed $eager and $joinEager to be treated as columns by count\(\) [\#11](https://github.com/feathersjs-ecosystem/feathers-objection/pull/11) ([NotAmaan](https://github.com/NotAmaan))
 
 ## [v0.10.0](https://github.com/feathersjs-ecosystem/feathers-objection/tree/v0.10.0) (2018-07-08)
 
@@ -581,6 +615,10 @@
 **Closed issues:**
 
 - $eager is used in query when pagination is used [\#8](https://github.com/feathersjs-ecosystem/feathers-objection/issues/8)
+
+**Merged pull requests:**
+
+- Fixed $eager and $joinEager to be treated as columns by count\(\) [\#11](https://github.com/feathersjs-ecosystem/feathers-objection/pull/11) ([NotAmaan](https://github.com/NotAmaan))
 
 ## [v0.7.0](https://github.com/feathersjs-ecosystem/feathers-objection/tree/v0.7.0) (2018-01-20)
 
